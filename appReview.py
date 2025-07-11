@@ -5,17 +5,17 @@ import json
 # --- Page Configuration ---
 st.set_page_config(
     page_title="Selfstudy_reviewed_Papers",
-    page_icon="📚",
+    page_icon="💆",
     layout="centered",
     initial_sidebar_state="auto",
 )
 
 # --- Application Title and Description ---
-st.title("📚 RAG-Powered Chat Application")
+st.title("💆 RAG-Powered Chat Application")
 st.markdown("""
 Welcome to our AI supporter.<br>
 Enter your question below to get a response from the model.<br>
-AI will use our 51 papers to answer our question.<br>
+우리 리뷰하는 51개 논문을 바탕으로 질문에 답변할 수 있도록 바꿔놨습니다.<br>
 Try "How does Baker use a critical friend in the 2022 paper?"<br>
 Use author names and publication year to improve the response quality.
 """, unsafe_allow_html=True)
